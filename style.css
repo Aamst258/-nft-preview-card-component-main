@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');  
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%) ;
+
+ --main-bg: hsl(217, 54%, 11%);
+--card-bg: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%); 
+}  
+
+* *::after *::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px; 
+  background-color: var(--main-bg);  
+  
+}  
+
+img{
+  max-width: 100%;
+}
+
+.attribution {
+   font-size: 11px; text-align: center;
+   }
+.attribution a { 
+      color: hsl(228, 45%, 44%);
+    }  
+.avatar-name{
+  margin-right: 8%;
+  
+  font-size: 20px;
+}     
+.line{
+  color: var(--line); 
+  background-color: var(--line);
+  margin: 0;
+}  
+.container{
+  margin: 20px auto;
+  background: var(--card-bg) ;
+  width: 400px;  
+  border: 20px solid  ;
+  border-color: var(--card-bg);
+  border-radius: 25px; 
+} 
+.white-color{
+  color: var(--White);
+}  
+h2{
+  color: var(--White);
+}  
+.last-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-top: 5px;
+}   
+.equilibruim-image{
+  border-radius: 10px; 
+  z-index: 2;
+}  
+.price-and-time{
+  display: flex; 
+  justify-content: space-between;
+  margin: 0;
+}   
+.price-and-time .ethereum{
+  color: var(--Cyan);
+}  
+.price-and-time .days{
+  color: var(--Soft-blue);
+}  
+.equilibruim-text p{
+  color: var(--Soft-blue);
+  margin:0;
+}  
+.soft-blue-color{
+  color: var(--Soft-blue);
+}
